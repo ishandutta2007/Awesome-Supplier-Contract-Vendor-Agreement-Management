@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#0f1f38" />
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <linearGradient id="accentViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="accentEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(30, 41, 59, 0.75)" />
+      <stop offset="100%" stop-color="rgba(15, 23, 42, 0.85)" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="badgeShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      fill: #94a3b8;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+    .grid-line {
+      stroke: #334155;
+      stroke-opacity: 0.22;
+      stroke-width: 1;
+    }
+
+    /* Keyframes Animations */
+    @keyframes pulseRing {
+      0% { transform: scale(0.98); opacity: 0.35; }
+      50% { transform: scale(1.03); opacity: 0.75; }
+      100% { transform: scale(0.98); opacity: 0.35; }
+    }
+    @keyframes floatCard1 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes floatCard2 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(6px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes dashMove {
+      to {
+        stroke-dashoffset: -100;
+      }
+    }
+    @keyframes glowOrb {
+      0% { opacity: 0.2; transform: translate(0, 0); }
+      50% { opacity: 0.45; transform: translate(25px, -15px); }
+      100% { opacity: 0.2; transform: translate(0, 0); }
+    }
+
+    .anim-pulse {
+      animation: pulseRing 5s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .anim-float-1 {
+      animation: floatCard1 6s ease-in-out infinite;
+    }
+    .anim-float-2 {
+      animation: floatCard2 7s ease-in-out infinite;
+    }
+    .flow-line {
+      stroke-dasharray: 8, 8;
+      animation: dashMove 6s linear infinite;
+    }
+    .orb-ambient {
+      animation: glowOrb 8s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background Base Canvas -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Technical Grid Pattern in Background -->
+  <g class="grid-layer">
+    <line x1="100" y1="0" x2="100" y2="360" class="grid-line" />
+    <line x1="250" y1="0" x2="250" y2="360" class="grid-line" />
+    <line x1="400" y1="0" x2="400" y2="360" class="grid-line" />
+    <line x1="550" y1="0" x2="550" y2="360" class="grid-line" />
+    <line x1="700" y1="0" x2="700" y2="360" class="grid-line" />
+    <line x1="850" y1="0" x2="850" y2="360" class="grid-line" />
+    <line x1="1000" y1="0" x2="1000" y2="360" class="grid-line" />
+    <line x1="0" y1="90" x2="1200" y2="90" class="grid-line" />
+    <line x1="0" y1="180" x2="1200" y2="180" class="grid-line" />
+    <line x1="0" y1="270" x2="1200" y2="270" class="grid-line" />
+  </g>
+
+  <!-- Dynamic Ambient Glowing Orbs (Strictly in Background) -->
+  <g class="orb-ambient">
+    <circle cx="1020" cy="90" r="140" fill="#00f2fe" opacity="0.12" filter="url(#glow)" />
+    <circle cx="150" cy="280" r="110" fill="#a855f7" opacity="0.1" filter="url(#glow)" />
+    <circle cx="650" cy="300" r="160" fill="#3b82f6" opacity="0.1" filter="url(#glow)" />
+  </g>
+
+  <!-- Dynamic Flow Connecting Curves -->
+  <path d="M 80,45 C 300,15 650,70 1120,40" fill="none" stroke="url(#accentCyan)" stroke-width="2.5" opacity="0.45" class="flow-line" />
+  <path d="M 80,315 C 450,335 850,290 1120,320" fill="none" stroke="url(#accentViolet)" stroke-width="2" opacity="0.35" class="flow-line" />
+
+  <!-- Animated Feature Badges (Top & Bottom Flanks - Unobtrusive) -->
+  <g class="anim-float-1" filter="url(#badgeShadow)">
+    <!-- Right Top Metric Card -->
+    <g transform="translate(930, 48)">
+      <rect width="210" height="42" rx="21" fill="url(#cardBg)" stroke="rgba(0, 242, 254, 0.4)" stroke-width="1.2" />
+      <circle cx="24" cy="21" r="7" fill="#00f2fe" />
+      <circle cx="24" cy="21" r="12" fill="none" stroke="#00f2fe" stroke-width="1.5" class="anim-pulse" />
+      <text x="44" y="26" class="badge-text">⚡ AI Contract Extraction</text>
+    </g>
+  </g>
+
+  <g class="anim-float-2" filter="url(#badgeShadow)">
+    <!-- Right Bottom Metric Card -->
+    <g transform="translate(930, 270)">
+      <rect width="210" height="42" rx="21" fill="url(#cardBg)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="1.2" />
+      <circle cx="24" cy="21" r="7" fill="#a855f7" />
+      <circle cx="24" cy="21" r="12" fill="none" stroke="#a855f7" stroke-width="1.5" class="anim-pulse" />
+      <text x="44" y="26" class="badge-text">🛡️ TPRM & Obligation Sync</text>
+    </g>
+  </g>
+
+  <!-- Central Foreground Content: Title & Subtitles -->
+  <g transform="translate(80, 105)">
+    <!-- Top Micro Tag -->
+    <g transform="translate(0, 0)">
+      <rect width="260" height="26" rx="13" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+      <text x="12" y="18" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="11" fill="#38bdf8" letter-spacing="0.8">ENTERPRISE CLM &amp; S2C DIRECTORY</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="65" class="title-text">
+      Awesome Supplier Contract &amp; Vendor Management
+    </text>
+
+    <!-- Main Subtitle -->
+    <text x="0" y="105" class="subtitle-text">
+      Curated guide to SaaS Contract Lifecycle Management (CLM), Source-to-Pay suites, and Open-Source platforms.
+    </text>
+    <text x="0" y="130" class="subtitle-text" fill="#64748b">
+      Compare starting tier pricing, free trial availability, market capitalization, obligations tracking, and star metrics.
+    </text>
+
+    <!-- Technology & Focus Pills -->
+    <g transform="translate(0, 160)">
+      <!-- Pill 1: CLM -->
+      <rect x="0" y="0" width="126" height="32" rx="16" fill="rgba(15, 23, 42, 0.8)" stroke="#38bdf8" stroke-width="1.2" />
+      <text x="14" y="21" class="badge-text" fill="#38bdf8">📑 CLM Systems</text>
+
+      <!-- Pill 2: Vendor Governance -->
+      <rect x="138" y="0" width="168" height="32" rx="16" fill="rgba(15, 23, 42, 0.8)" stroke="#a855f7" stroke-width="1.2" />
+      <text x="152" y="21" class="badge-text" fill="#c084fc">🏢 Vendor Governance</text>
+
+      <!-- Pill 3: Source-to-Contract -->
+      <rect x="318" y="0" width="176" height="32" rx="16" fill="rgba(15, 23, 42, 0.8)" stroke="#10b981" stroke-width="1.2" />
+      <text x="332" y="21" class="badge-text" fill="#34d399">🔄 Source-to-Contract</text>
+
+      <!-- Pill 4: Open-Source -->
+      <rect x="506" y="0" width="156" height="32" rx="16" fill="rgba(15, 23, 42, 0.8)" stroke="#f59e0b" stroke-width="1.2" />
+      <text x="520" y="21" class="badge-text" fill="#fbbf24">🔓 Open-Source Tools</text>
+    </g>
+  </g>
+
+  <!-- Border Accent -->
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+</svg>
