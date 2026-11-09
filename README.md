@@ -27,7 +27,7 @@
   - [SaaS Solutions Comparison Matrix](#-saas-solutions-comparison-matrix)
   - [Detailed SaaS Profiles](#-detailed-saas-profiles)
 - [🟩 Open-Source Software](#-open-source-software)
-  - [Open-Source Solutions by Star Count](#-open-source-solutions-by-star-count)
+  - [Open-Source Solutions by Stars_Count](#-open-source-solutions-by-star-count)
   - [Detailed Open-Source Profiles](#-detailed-open-source-profiles)
 - [📊 Full Comparison at a Glance](#-full-comparison-at-a-glance)
 - [🎯 Choosing the Right Solution](#-choosing-the-right-solution)
@@ -146,11 +146,11 @@ Commercial, cloud-hosted enterprise Supplier Contract and Vendor Agreement Manag
 
 Self-hosted, transparent, community-driven contract and vendor agreement management systems. 
 
-Repositories are **sorted descending by GitHub star count** and feature live social badges linking to their respective stargazers page.
+Repositories are **sorted descending by GitHub Stars_Count** and feature live social badges linking to their respective stargazers page.
 
-### 🌟 Open-Source Solutions by Star Count
+### 🌟 Open-Source Solutions by Stars_Count
 
-| Repository & Stars Badge 📦 | Stars ⭐ | Primary Tech Stack 💻 | License 📜 | Key Governance Strengths 🛡️ |
+| Repository & Stars_Badge 📦 | GitHub_Stars ⭐ | Primary Tech Stack 💻 | License 📜 | Key Governance Strengths 🛡️ |
 |---|---|---|---|---|
 | [**frappe/erpnext**](https://github.com/frappe/erpnext) [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | **41,000+** | Python / JavaScript / MariaDB | GPL-3.0 | Complete supplier lifecycle, purchase agreements, PO matching, and supplier scorecards |
 | [**eikek/docspell**](https://github.com/eikek/docspell) [![Stars](https://img.shields.io/github/stars/eikek/docspell?style=social&color=white)](https://github.com/eikek/docspell/stargazers) | **2,300+** | Scala / Elm / PostgreSQL | AGPL-3.0 | Automated machine-learning OCR classification for vendor bills, agreements, and contract metadata |
@@ -232,15 +232,15 @@ Repositories are **sorted descending by GitHub star count** and feature live soc
 | **Ivalua** | Cloud SaaS | From ~$12,500/mo ($150k/yr) | ✅ Agent-assisted | ✅ Spend-to-terms tracking | ✅ Enriched supplier profiles | Complex multi-tier supply chains |
 | **CobbleStone** | Cloud SaaS | From $59/user/mo | ✅ Document Authoring | ✅ VISDOM AI Tracking | ✅ Vendor Ratings | Public sector, education, and mid-market CLM |
 | **Gatekeeper** | Cloud SaaS | From $1,245/mo | ⚠️ Ingestion focused | ✅ Renewal & Obligation | ✅ Deduplicated TPRM | Fast-growing teams needing unlimited users |
-| **ERPNext** | Self-Hosted OS | 🌟 41,000+ stars | ⚠️ Template PO/Agreements | ✅ Milestone Delivery | ✅ Full ERP Supplier Ledger | Complete open-source procurement suite |
-| **Docspell** | Self-Hosted OS | 🌟 2,300+ stars | ❌ Document store | ⚠️ Expiry date alerts | ⚠️ Contact categorization | Automated OCR document indexing & filing |
-| **Onto-Contract**| Self-Hosted OS | 🌟 49 stars | ✅ Graph LLM Assisted | ✅ Knowledge Graph Alerts | ⚠️ Ontology relationships | AI-native contract relationship modeling |
-| **Draft Legal** | Self-Hosted OS | 🌟 21 stars | ✅ AI Redlining & Review | ⚠️ Document status | ❌ (Contract centric) | Privacy-first local AI contract drafting |
-| **ContractManager**| Desktop OS | 🌟 20 stars | ❌ (Record keeping) | ✅ Notice Period Warnings | ⚠️ Basic Vendor Records | Local desktop agreement deadline tracking |
-| **Edictum Console**| Self-Hosted OS | 🌟 18 stars | ⚠️ Policy approval | ✅ Audit Trail Logging | ⚠️ Agent identity records | AI agent contractual boundary governance |
-| **SevenSquare VMS**| Desktop OS | 🌟 16 stars | ⚠️ Agreement profiles | ✅ Renewal Warnings | ✅ Vendor Directory | Offline desktop vendor and PO tracking |
-| **Aakd** | Self-Hosted OS | 🌟 12 stars | ❌ (Post-signature) | ✅ Page-Level Evidence | ⚠️ Reference links | Self-hosted post-signature obligation review |
-| **VendorBridge AI**| Self-Hosted OS | 🌟 4 stars | ⚠️ PO / Invoicing | ⚠️ Fulfillment tracking | ✅ Risk scoring & profiles | Full-stack AI vendor ERP reference build |
+| **ERPNext** | Self-Hosted OS | 🌟 41,000+ GitHub_Stars | ⚠️ Template PO/Agreements | ✅ Milestone Delivery | ✅ Full ERP Supplier Ledger | Complete open-source procurement suite |
+| **Docspell** | Self-Hosted OS | 🌟 2,300+ GitHub_Stars | ❌ Document store | ⚠️ Expiry date alerts | ⚠️ Contact categorization | Automated OCR document indexing & filing |
+| **Onto-Contract**| Self-Hosted OS | 🌟 49 GitHub_Stars | ✅ Graph LLM Assisted | ✅ Knowledge Graph Alerts | ⚠️ Ontology relationships | AI-native contract relationship modeling |
+| **Draft Legal** | Self-Hosted OS | 🌟 21 GitHub_Stars | ✅ AI Redlining & Review | ⚠️ Document status | ❌ (Contract centric) | Privacy-first local AI contract drafting |
+| **ContractManager**| Desktop OS | 🌟 20 GitHub_Stars | ❌ (Record keeping) | ✅ Notice Period Warnings | ⚠️ Basic Vendor Records | Local desktop agreement deadline tracking |
+| **Edictum Console**| Self-Hosted OS | 🌟 18 GitHub_Stars | ⚠️ Policy approval | ✅ Audit Trail Logging | ⚠️ Agent identity records | AI agent contractual boundary governance |
+| **SevenSquare VMS**| Desktop OS | 🌟 16 GitHub_Stars | ⚠️ Agreement profiles | ✅ Renewal Warnings | ✅ Vendor Directory | Offline desktop vendor and PO tracking |
+| **Aakd** | Self-Hosted OS | 🌟 12 GitHub_Stars | ❌ (Post-signature) | ✅ Page-Level Evidence | ⚠️ Reference links | Self-hosted post-signature obligation review |
+| **VendorBridge AI**| Self-Hosted OS | 🌟 4 GitHub_Stars | ⚠️ PO / Invoicing | ⚠️ Fulfillment tracking | ✅ Risk scoring & profiles | Full-stack AI vendor ERP reference build |
 | **Shillinq** | Nextcloud OS | 🌟 1 star | ⚠️ Basic templates | ✅ Nextcloud Calendar sync | ✅ Supplier questionnaires | Nextcloud-integrated contract management |
 
 ---
@@ -288,7 +288,7 @@ Contributions and recommendations are warmly welcomed! To suggest an addition or
 
 1. 🍴 **Fork the repository**
 2. 🌿 **Create a descriptive feature branch** (`git checkout -b add-tool-name`)
-3. 📝 **Add the tool** with exact starting pricing, free tier/trial limits, company valuation or star count badges
+3. 📝 **Add the tool** with exact starting pricing, free tier/trial limits, company valuation or Stars_Count badges
 4. 🚀 **Submit a Pull Request** with a concise summary of why the solution fits the directory
 
 Please ensure any suggested open-source repositories are active (commits or releases within the past 12 months) and properly licensed.
