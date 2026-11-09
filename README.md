@@ -5,10 +5,13 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Supplier-Contract-Vendor-Agreement-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Supplier-Contract-Vendor-Agreement-Management?style=social&color=white" alt="Repo Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Supplier-Contract-Vendor-Agreement-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Supplier-Contract-Vendor-Agreement-Management?style=social&color=white" alt="Repo Forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Supplier-Contract-Vendor-Agreement-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0-1.0"></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > 🌟 **A definitive, curated index of premier Supplier Contract and Vendor Agreement Management solutions** — comparing leading commercial enterprise Contract Lifecycle Management (CLM) / Source-to-Pay (S2P) suites alongside self-hosted open-source alternatives. Master your supplier contracts, third-party risk management (TPRM), post-signature milestone obligations, and procurement workflows.
@@ -28,6 +31,8 @@
   - [Detailed Open-Source Profiles](#-detailed-open-source-profiles)
 - [📊 Full Comparison at a Glance](#-full-comparison-at-a-glance)
 - [🎯 Choosing the Right Solution](#-choosing-the-right-solution)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -257,6 +262,23 @@ flowchart TD
     D -->|"AI Drafting & Analysis"| I["Draft Legal / Onto-Contract"]
     D -->|"Obligation & Expiry Tracking"| J["Aakd / ContractManager / Docspell"]
 ```
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring and utilizing this curated directory! If this guide helped you or your team evaluate supplier contract and vendor agreement management solutions, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve discoverability for others.
+- 🍴 **Fork and share** it across your organization, legal ops networks, or developer circles.
+- 💬 Join the conversation and connect with our community on [Discord](https://discord.gg/jc4xtF58Ve).
+- ☕ **Buy a coffee & sponsor ongoing maintenance:** Support our open-source research and tooling efforts through the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Supplier-Contract-Vendor-Agreement-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Supplier-Contract-Vendor-Agreement-Management&type=date&legend=top-left)
 
 ---
 
