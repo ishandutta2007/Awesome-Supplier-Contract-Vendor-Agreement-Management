@@ -146,7 +146,7 @@ Commercial, cloud-hosted enterprise Supplier Contract and Vendor Agreement Manag
 
 Self-hosted, transparent, community-driven contract and vendor agreement management systems. 
 
-Repositories are **sorted descending by GitHub Stars_Count** and feature live social badges linking to their respective stargazers page.
+Repositories are **sorted descending by GitHub_Stars_Count** and feature live social badges linking to their respective stargazers page.
 
 ### 🌟 Open-Source Solutions by Stars_Count
 
