@@ -1,7 +1,7 @@
 # Awesome Supplier Contract & Vendor Agreement Management 📑🤝
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Awesome Supplier Contract & Vendor Agreement Management Banner" width="100%">
+  <img src="assets/banner.svg" alt="Awesome Supplier Contract & Vendor Agreement Management Banner" width="100%" />
 </p>
 
 <p align="center">
